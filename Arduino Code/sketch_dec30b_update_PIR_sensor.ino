@@ -4,12 +4,12 @@
 #include <SoftwareSerial.h>
 
 // ---------------- WiFi credentials ----------------
-char ssid[] = "VM3321015";
-char pass[] = "zearysueHbjwz5yk";
+char ssid[] = "Wifi-Username";
+char pass[] = "Wifi-Password";
 
 // ---------------- ThingSpeak ----------------
-unsigned long channelID = 3215354;
-const char* writeAPIKey = "NGCB9JOU2QPA0E2F";
+unsigned long channelID = 3215354; // Think speak Channel Id 
+const char* writeAPIKey = "NGCB9JOU2QPA0E2F"; // Think speak write API
 WiFiClient client;
 
 // ---------------- DHT11 ----------------
