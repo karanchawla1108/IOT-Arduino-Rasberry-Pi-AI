@@ -63,7 +63,7 @@ void setup() {
 void loop() {
   unsigned long currentTime = millis();
 
-  // -------- PIR SENSOR (EFFICIENT STATE-BASED LOGIC) --------
+  // -------- PIR SENSOR --------
   int val = digitalRead(pirPin);
 
   // Motion started
