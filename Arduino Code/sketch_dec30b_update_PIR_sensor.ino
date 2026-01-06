@@ -4,8 +4,8 @@
 #include <SoftwareSerial.h>
 
 // ---------------- WiFi credentials ----------------
-char ssid[] = "Wifi-Username";
-char pass[] = "Wifi-Password";
+char ssid[] = "Wifi-Username"; // Wifi Address
+char pass[] = "Wifi-Password"; // Wifi Password
 
 // ---------------- ThingSpeak ----------------
 unsigned long channelID = 3215354; // Think speak Channel Id 
